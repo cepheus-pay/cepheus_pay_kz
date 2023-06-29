@@ -1,0 +1,16 @@
+<svg width="36" height="35" viewBox="0 0 36 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="United Kingdom">
+<circle id="Oval 1" cx="17.5" cy="17.5" r="17.6944" fill="#171F69" stroke="#E1E1E1" stroke-width="0.388889"/>
+<mask id="mask0_49_3507" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="-1" y="-1" width="37" height="37">
+<circle id="Oval 1_2" cx="17.5" cy="17.5" r="17.6944" fill="white" stroke="white" stroke-width="0.388889"/>
+</mask>
+<g mask="url(#mask0_49_3507)">
+<path id="Fill 2" fill-rule="evenodd" clip-rule="evenodd" d="M-10.0994 11.9008H-3.39965L-10.0994 8.53847V-0.228638H-9.96954L11.5111 10.479V-0.228638H23.6079V10.479L45.0901 -0.228638H45.2947V8.51747L38.5195 11.9008H45.2947V24.038H38.5195L45.2947 27.4214V36.169H45.0901L23.6079 25.4598V36.169H11.5111V25.4598L-9.96954 36.169H-10.0994V27.3996L-3.39965 24.038H-10.0994V11.9008Z" fill="white"/>
+<path id="Fill 3" fill-rule="evenodd" clip-rule="evenodd" d="M45.2947 1.24207L23.9672 11.9085H29.7772L45.2947 4.11751V1.24207Z" fill="#ED1B2D"/>
+<path id="Fill 4" fill-rule="evenodd" clip-rule="evenodd" d="M45.2947 31.8297L29.7516 24.038H35.5865L45.2947 28.9216V31.8297Z" fill="#ED1B2D"/>
+<path id="Fill 5" fill-rule="evenodd" clip-rule="evenodd" d="M5.5588 11.9085L-10.0994 4.09265V7.0031L-0.300982 11.9085H5.5588Z" fill="#ED1B2D"/>
+<path id="Fill 6" fill-rule="evenodd" clip-rule="evenodd" d="M5.50902 24.038L-10.0994 31.8414V34.7441L11.319 24.038H5.50902Z" fill="#ED1B2D"/>
+<path id="Fill 7" fill-rule="evenodd" clip-rule="evenodd" d="M-10.0994 14.4185H14.0887V-0.228638H21.196V14.4185H45.2947V21.5258H21.196V36.169H14.0887V21.5258H-10.0994V14.4185Z" fill="#ED1B2D"/>
+</g>
+</g>
+</svg>

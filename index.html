@@ -1,0 +1,1039 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Cepheus Pay</title>
+    <meta name="description" content="Site slogan">
+    <meta name="keywords" content="Site keys">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="theme-color" content="#fff">
+    <meta name="msapplication-navbutton-color" content="#fff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#fff">
+    <meta name="theme-color" content="#fff">
+    <meta property="og:title" content="Site keys" />
+    <meta property="og:description" content="Site slogan" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="***permalink***" />
+    <meta property="og:image" content="***img***" />
+    <meta property="og:image:type" content="image/jpeg" />
+    <!-- android favicon -->
+    <link rel="manifest" href="manifest.json" crossorigin="use-credentials">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <!-- windows favicon -->
+    <meta name="msapplication-config" content="browserconfig.xml">
+    <!-- apple favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <!-- safari format detection -->
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="address=no" />
+    <meta name="format-detection" content="email=no" />
+    <meta name="format-detection" content="date=no" />
+    <!-- css -->
+    <link rel="stylesheet" href="css/libs.min.css">
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body class="body loaded">
+
+    <div class="icon-load">
+        <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path class="preloader preloader-4" fill-rule="evenodd" clip-rule="evenodd"
+                d="M58 34V24C44.7452 24 34 13.2548 34 0H24C24 18.7777 39.2223 34 58 34Z" fill="#F0F1F5" />
+            <path class="preloader preloader-3" fill-rule="evenodd" clip-rule="evenodd"
+                d="M58 24V34C44.7452 34 34 44.7452 34 58H24C24 39.2223 39.2223 24 58 24Z" fill="#F0F1F5" />
+            <path class="preloader preloader-2" fill-rule="evenodd" clip-rule="evenodd"
+                d="M0 24V34C13.2548 34 24 44.7452 24 58H34C34 39.2223 18.7777 24 0 24Z" fill="#F0F1F5" />
+            <path class="preloader preloader-1" fill-rule="evenodd" clip-rule="evenodd"
+                d="M0 34V24C13.2548 24 24 13.2548 24 0H34C34 18.7777 18.7777 34 0 34Z" fill="#F0F1F5" />
+        </svg>
+
+    </div>
+
+    <div class="main-wrapper">
+        <header class="header">
+        	<div class="header__background-mobile"></div>
+        	<div class="wrapper">
+        		<div class="header__wrapper active">
+        			<div class="header__logo"><img src="img/logo/logo.svg" alt="logo"></div>
+        		</div>
+        	</div>
+        	<div class="popup" id="login">
+        		<div class="popup__left">
+        			<div class="popup__logo">
+        				<svg width="209" height="40" viewBox="0 0 209 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        					<path fill-rule="evenodd" clip-rule="evenodd"
+        						d="M11.8009 34.0005C8.40031 34.0005 5.58153 32.8917 3.34454 30.6741C1.13893 28.4781 -0.0678692 25.4854 0.00295014 22.3873C0.00295014 19.1033 1.12144 16.3513 3.35842 14.1314C5.59541 11.9115 8.40956 10.7924 11.8009 10.774C13.7828 10.7588 15.7345 11.2556 17.4639 12.2154C19.1471 13.1268 20.5482 14.4753 21.5168 16.1163L18.2898 17.9738C17.6852 16.8625 16.7725 15.9458 15.6595 15.3319C14.4828 14.6748 13.1513 14.3389 11.8009 14.3584C9.41354 14.3584 7.45532 15.1152 5.92621 16.6288C4.44106 18.1217 3.69964 20.0412 3.70195 22.3873C3.70426 24.7333 4.44568 26.6528 5.92621 28.1458C7.453 29.6593 9.41123 30.4161 11.8009 30.4161C13.1601 30.4355 14.5005 30.0997 15.6873 29.4426C16.8037 28.839 17.7134 27.9192 18.3002 26.8007L21.5168 28.6273C20.5627 30.2768 19.1721 31.6364 17.4951 32.5592C15.7588 33.53 13.7941 34.0273 11.8009 34.0005ZM39.4566 27.0587H26.6177C26.8269 28.174 27.4557 29.1688 28.377 29.8416C29.3744 30.5268 30.5683 30.8743 31.781 30.8323C33.6109 30.8323 34.9989 30.1719 35.945 28.8509L38.8182 30.5124C37.2451 32.8378 34.889 34.0005 31.7498 34.0005C29.1473 34.0005 27.0283 33.2116 25.3928 31.6339C23.7759 30.0368 22.8969 27.8482 22.9638 25.5864C22.9165 23.3531 23.7841 21.1961 25.3685 19.6078C26.937 17.9864 28.9808 17.1758 31.5 17.1758C33.7058 17.1185 35.827 18.0179 37.3087 19.6388C38.828 21.2616 39.6495 23.4074 39.5989 25.6208C39.5945 26.1027 39.5515 26.5835 39.4705 27.0587H39.4566ZM36.0908 24.2414H26.5934C26.774 23.1127 27.3577 22.086 28.2382 21.3484C29.1533 20.628 30.2975 20.2548 31.4653 20.2958C32.5639 20.2693 33.6355 20.6356 34.4842 21.3278C35.3543 22.077 35.9244 23.1108 36.0908 24.2414ZM51.3136 17.1723C53.4732 17.1598 55.5372 18.0547 56.9939 19.6353C58.5475 21.228 59.3924 23.3715 59.3397 25.5864C59.3941 27.8128 58.5454 29.9678 56.9835 31.5685C55.5238 33.1412 53.4589 34.0253 51.3032 34.0005C48.8719 34.0005 46.9888 33.105 45.654 31.3139V39.9826H42.1841V17.5886H45.654V19.8933C46.9726 18.0816 48.8591 17.1746 51.3136 17.1723ZM54.4053 29.2672C52.3598 31.1805 49.1639 31.1805 47.1184 29.2672C46.1619 28.2801 45.6433 26.9547 45.6783 25.5864C45.6348 24.2242 46.1609 22.9046 47.1323 21.9401C49.1562 19.9734 52.3953 19.9734 54.4192 21.9401C55.3893 22.9052 55.9141 24.2247 55.8697 25.5864C55.9061 26.9596 55.3775 28.2884 54.4053 29.2672ZM70.5165 17.1723C72.3903 17.1723 73.8939 17.764 75.0274 18.9473C76.161 20.1307 76.7254 21.736 76.7208 23.7633V33.5843H73.2196V24.1141C73.2196 22.9216 72.8969 22.0043 72.2515 21.3622C71.5397 20.6971 70.5841 20.3502 69.6073 20.4024C68.4836 20.3457 67.3898 20.7719 66.6058 21.572C65.8725 22.3494 65.507 23.4961 65.5093 25.012V33.5843H62.0289V11.1903H65.5162V19.6353C66.5919 17.9956 68.2587 17.1746 70.5165 17.1723ZM82.7829 27.0587H95.6218C95.7011 26.5833 95.744 26.1027 95.7502 25.6208C95.8008 23.4074 94.9792 21.2616 93.46 19.6388C91.9783 18.0179 89.857 17.1185 87.6512 17.1758C85.132 17.1758 83.0882 17.9864 81.5198 19.6078C79.9331 21.2 79.0665 23.3626 79.1186 25.6002C79.052 27.8619 79.931 30.0503 81.5475 31.6476C83.1854 33.2162 85.3078 34.0005 87.915 34.0005C91.0564 34.0005 93.4126 32.8378 94.9833 30.5124L92.1102 28.8509C91.164 30.1719 89.776 30.8323 87.9462 30.8323C86.7335 30.8743 85.5395 30.5268 84.5421 29.8416C83.6209 29.1688 82.992 28.174 82.7829 27.0587ZM82.7447 24.2414H92.2316C92.0657 23.114 91.4998 22.0821 90.6354 21.3312C89.7867 20.6391 88.7152 20.2728 87.6165 20.2992C86.4488 20.2583 85.3045 20.6315 84.3895 21.3519C83.5097 22.0886 82.926 23.114 82.7447 24.2414ZM109.255 17.5886V26.1609C109.253 27.6768 108.883 28.8234 108.145 29.6008C107.362 30.4017 106.267 30.8281 105.143 30.7704C104.162 30.8265 103.201 30.4794 102.485 29.8107C101.84 29.1686 101.517 28.2512 101.517 27.0587V17.5886H98.0473V27.4096C98.0381 29.4369 98.6025 31.0422 99.7407 32.2255C100.879 33.4089 102.382 34.0005 104.252 34.0005C106.512 34.0005 108.18 33.1795 109.255 31.5375V33.5843H112.725V17.5886H109.255ZM119.37 22.0158C119.383 22.5275 119.681 22.99 120.144 23.2163C120.858 23.5977 121.619 23.8878 122.407 24.0797C123.073 24.2266 123.731 24.4081 124.378 24.6232C124.996 24.8446 125.59 25.1281 126.151 25.4695C126.754 25.8234 127.25 26.332 127.587 26.9418C127.928 27.5998 128.086 28.3359 128.045 29.0745C128.095 30.4993 127.42 31.8537 126.248 32.6796C124.935 33.5865 123.36 34.0464 121.761 33.9902C120.332 34.0377 118.917 33.7038 117.663 33.0236C116.556 32.3976 115.684 31.4317 115.179 30.2716L118.18 28.5517C118.717 30.0859 119.911 30.853 121.761 30.853C123.612 30.853 124.527 30.2556 124.506 29.0608C124.506 28.187 123.483 27.499 121.438 26.9968C120.779 26.8391 120.128 26.6473 119.488 26.4223C118.887 26.1948 118.306 25.9163 117.753 25.5899C117.144 25.2533 116.64 24.7555 116.299 24.152C115.96 23.5178 115.798 22.8051 115.831 22.088C115.787 20.7068 116.411 19.3879 117.51 18.538C118.72 17.6188 120.214 17.1435 121.737 17.193C122.983 17.1703 124.214 17.4741 125.304 18.0736C126.319 18.6387 127.15 19.4803 127.698 20.4987L124.759 22.1327C124.225 20.9081 123.215 20.2958 121.73 20.2958C121.133 20.2705 120.542 20.4265 120.037 20.743C119.601 21.0184 119.347 21.5038 119.37 22.0158ZM147.8 11.204H139.732L139.736 33.5843H141.998V25.27H147.803C149.699 25.3137 151.531 24.5863 152.872 23.2567C154.213 21.9272 154.947 20.1115 154.903 18.2318C154.944 16.3533 154.209 14.5397 152.867 13.2124C151.526 11.885 149.695 11.1594 147.8 11.204ZM141.995 23.1681H147.8C149.1 23.2138 150.36 22.7143 151.27 21.7922C152.205 20.8481 152.707 19.5643 152.658 18.2421C152.703 16.9299 152.201 15.6572 151.27 14.7231C150.369 13.7841 149.106 13.272 147.8 13.3161H141.998L141.995 23.1681ZM170.067 20.7169V17.5886H172.197V33.5843H170.067V30.4505C168.584 32.7966 166.412 33.9696 163.55 33.9696C161.33 34.0002 159.195 33.1201 157.651 31.5375C156.054 29.9669 155.176 27.816 155.222 25.5864C155.177 23.357 156.055 21.2064 157.651 19.6353C159.195 18.0527 161.33 17.1727 163.55 17.2033C166.41 17.201 168.582 18.3722 170.067 20.7169ZM159.195 30.0962C161.706 32.5186 165.706 32.5186 168.217 30.0962C169.419 28.9008 170.083 27.2742 170.056 25.5864C170.056 22.1059 167.21 19.2844 163.699 19.2844C160.189 19.2844 157.342 22.1059 157.342 25.5864C157.321 27.2759 157.989 28.9022 159.195 30.0962ZM187.753 17.5782L182.524 30.994L176.455 17.5886H174.196L181.445 33.6806L181.025 34.6713C180.014 37.1183 178.54 38.2271 176.604 37.9978V39.9826C177.98 40.0933 179.347 39.6758 180.421 38.8165C181.645 37.8273 182.575 36.528 183.114 35.0566L190.012 17.5782H187.753Z"
+        						fill="#fff" />
+        					<path fill-rule="evenodd" clip-rule="evenodd"
+        						d="M196.626 0H200.134C200.142 2.33128 201.085 4.56382 202.754 6.20566C204.411 7.84947 206.656 8.77693 209 8.78562V12.2634C204.112 12.2748 200.155 16.2038 200.152 21.049H196.643C196.638 16.1992 192.673 12.2691 187.781 12.2634V8.78562C190.125 8.77821 192.37 7.85197 194.027 6.2091C195.687 4.56111 196.621 2.32883 196.626 0ZM194.089 10.5262C195.847 11.5659 197.32 13.0177 198.378 14.7539C199.431 13.0189 200.898 11.567 202.65 10.5262C200.898 9.48337 199.432 8.03055 198.378 6.2951C197.319 8.03172 195.846 9.48448 194.089 10.5262Z"
+        						fill="#F00000" />
+        				</svg>
+        			</div>
+        			<div class="popup__title">
+        				Gl<span class="popup__star star"></span>bal
+        			</div>
+        			<div class="popup__left-pic">
+        				<img src="img/popup/image.png" alt="">
+        			</div>
+        		</div>
+        		<div class="popup__right">
+        			<h3>
+        				Log In
+        			</h3>
+        			<p class="popup__desc">
+        				Managing your finances efficiently
+        			</p>
+        			<form action="" class="popup__form">
+        				<div class="popup__form-top">
+        					<div class="popup__input-wrapper">
+        						<input type="email" placeholder="Email">
+        					</div>
+        					<div class="popup__input-wrapper password">
+        						<div class="popup__input-abs">
+        							<img class="active" src="img/main/eye.svg" alt="">
+        							<img class="" src="img/main/eye-closed.svg" alt="">
+        						</div>
+        						<input type="password" placeholder="Password">
+        					</div>
+        				</div>
+        				<a href="#!" class="popup__password">Forgot Password</a>
+        				<div class="popup__input-wrapper">
+        					<input type="submit" class="button--red button" value="Log In">
+        				</div>
+        			</form>
+        			<span class="signup">Don't have an account?<a href="#signup" rel='fancy2' data-fancybox>&nbsp;Sign
+        					Up</a></span>
+        		</div>
+        	</div>
+        	<div class="popup" id="signup">
+        		<div class="popup__left">
+        			<div class="popup__logo">
+        				<svg width="209" height="40" viewBox="0 0 209 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+        					<path fill-rule="evenodd" clip-rule="evenodd"
+        						d="M11.8009 34.0005C8.40031 34.0005 5.58153 32.8917 3.34454 30.6741C1.13893 28.4781 -0.0678692 25.4854 0.00295014 22.3873C0.00295014 19.1033 1.12144 16.3513 3.35842 14.1314C5.59541 11.9115 8.40956 10.7924 11.8009 10.774C13.7828 10.7588 15.7345 11.2556 17.4639 12.2154C19.1471 13.1268 20.5482 14.4753 21.5168 16.1163L18.2898 17.9738C17.6852 16.8625 16.7725 15.9458 15.6595 15.3319C14.4828 14.6748 13.1513 14.3389 11.8009 14.3584C9.41354 14.3584 7.45532 15.1152 5.92621 16.6288C4.44106 18.1217 3.69964 20.0412 3.70195 22.3873C3.70426 24.7333 4.44568 26.6528 5.92621 28.1458C7.453 29.6593 9.41123 30.4161 11.8009 30.4161C13.1601 30.4355 14.5005 30.0997 15.6873 29.4426C16.8037 28.839 17.7134 27.9192 18.3002 26.8007L21.5168 28.6273C20.5627 30.2768 19.1721 31.6364 17.4951 32.5592C15.7588 33.53 13.7941 34.0273 11.8009 34.0005ZM39.4566 27.0587H26.6177C26.8269 28.174 27.4557 29.1688 28.377 29.8416C29.3744 30.5268 30.5683 30.8743 31.781 30.8323C33.6109 30.8323 34.9989 30.1719 35.945 28.8509L38.8182 30.5124C37.2451 32.8378 34.889 34.0005 31.7498 34.0005C29.1473 34.0005 27.0283 33.2116 25.3928 31.6339C23.7759 30.0368 22.8969 27.8482 22.9638 25.5864C22.9165 23.3531 23.7841 21.1961 25.3685 19.6078C26.937 17.9864 28.9808 17.1758 31.5 17.1758C33.7058 17.1185 35.827 18.0179 37.3087 19.6388C38.828 21.2616 39.6495 23.4074 39.5989 25.6208C39.5945 26.1027 39.5515 26.5835 39.4705 27.0587H39.4566ZM36.0908 24.2414H26.5934C26.774 23.1127 27.3577 22.086 28.2382 21.3484C29.1533 20.628 30.2975 20.2548 31.4653 20.2958C32.5639 20.2693 33.6355 20.6356 34.4842 21.3278C35.3543 22.077 35.9244 23.1108 36.0908 24.2414ZM51.3136 17.1723C53.4732 17.1598 55.5372 18.0547 56.9939 19.6353C58.5475 21.228 59.3924 23.3715 59.3397 25.5864C59.3941 27.8128 58.5454 29.9678 56.9835 31.5685C55.5238 33.1412 53.4589 34.0253 51.3032 34.0005C48.8719 34.0005 46.9888 33.105 45.654 31.3139V39.9826H42.1841V17.5886H45.654V19.8933C46.9726 18.0816 48.8591 17.1746 51.3136 17.1723ZM54.4053 29.2672C52.3598 31.1805 49.1639 31.1805 47.1184 29.2672C46.1619 28.2801 45.6433 26.9547 45.6783 25.5864C45.6348 24.2242 46.1609 22.9046 47.1323 21.9401C49.1562 19.9734 52.3953 19.9734 54.4192 21.9401C55.3893 22.9052 55.9141 24.2247 55.8697 25.5864C55.9061 26.9596 55.3775 28.2884 54.4053 29.2672ZM70.5165 17.1723C72.3903 17.1723 73.8939 17.764 75.0274 18.9473C76.161 20.1307 76.7254 21.736 76.7208 23.7633V33.5843H73.2196V24.1141C73.2196 22.9216 72.8969 22.0043 72.2515 21.3622C71.5397 20.6971 70.5841 20.3502 69.6073 20.4024C68.4836 20.3457 67.3898 20.7719 66.6058 21.572C65.8725 22.3494 65.507 23.4961 65.5093 25.012V33.5843H62.0289V11.1903H65.5162V19.6353C66.5919 17.9956 68.2587 17.1746 70.5165 17.1723ZM82.7829 27.0587H95.6218C95.7011 26.5833 95.744 26.1027 95.7502 25.6208C95.8008 23.4074 94.9792 21.2616 93.46 19.6388C91.9783 18.0179 89.857 17.1185 87.6512 17.1758C85.132 17.1758 83.0882 17.9864 81.5198 19.6078C79.9331 21.2 79.0665 23.3626 79.1186 25.6002C79.052 27.8619 79.931 30.0503 81.5475 31.6476C83.1854 33.2162 85.3078 34.0005 87.915 34.0005C91.0564 34.0005 93.4126 32.8378 94.9833 30.5124L92.1102 28.8509C91.164 30.1719 89.776 30.8323 87.9462 30.8323C86.7335 30.8743 85.5395 30.5268 84.5421 29.8416C83.6209 29.1688 82.992 28.174 82.7829 27.0587ZM82.7447 24.2414H92.2316C92.0657 23.114 91.4998 22.0821 90.6354 21.3312C89.7867 20.6391 88.7152 20.2728 87.6165 20.2992C86.4488 20.2583 85.3045 20.6315 84.3895 21.3519C83.5097 22.0886 82.926 23.114 82.7447 24.2414ZM109.255 17.5886V26.1609C109.253 27.6768 108.883 28.8234 108.145 29.6008C107.362 30.4017 106.267 30.8281 105.143 30.7704C104.162 30.8265 103.201 30.4794 102.485 29.8107C101.84 29.1686 101.517 28.2512 101.517 27.0587V17.5886H98.0473V27.4096C98.0381 29.4369 98.6025 31.0422 99.7407 32.2255C100.879 33.4089 102.382 34.0005 104.252 34.0005C106.512 34.0005 108.18 33.1795 109.255 31.5375V33.5843H112.725V17.5886H109.255ZM119.37 22.0158C119.383 22.5275 119.681 22.99 120.144 23.2163C120.858 23.5977 121.619 23.8878 122.407 24.0797C123.073 24.2266 123.731 24.4081 124.378 24.6232C124.996 24.8446 125.59 25.1281 126.151 25.4695C126.754 25.8234 127.25 26.332 127.587 26.9418C127.928 27.5998 128.086 28.3359 128.045 29.0745C128.095 30.4993 127.42 31.8537 126.248 32.6796C124.935 33.5865 123.36 34.0464 121.761 33.9902C120.332 34.0377 118.917 33.7038 117.663 33.0236C116.556 32.3976 115.684 31.4317 115.179 30.2716L118.18 28.5517C118.717 30.0859 119.911 30.853 121.761 30.853C123.612 30.853 124.527 30.2556 124.506 29.0608C124.506 28.187 123.483 27.499 121.438 26.9968C120.779 26.8391 120.128 26.6473 119.488 26.4223C118.887 26.1948 118.306 25.9163 117.753 25.5899C117.144 25.2533 116.64 24.7555 116.299 24.152C115.96 23.5178 115.798 22.8051 115.831 22.088C115.787 20.7068 116.411 19.3879 117.51 18.538C118.72 17.6188 120.214 17.1435 121.737 17.193C122.983 17.1703 124.214 17.4741 125.304 18.0736C126.319 18.6387 127.15 19.4803 127.698 20.4987L124.759 22.1327C124.225 20.9081 123.215 20.2958 121.73 20.2958C121.133 20.2705 120.542 20.4265 120.037 20.743C119.601 21.0184 119.347 21.5038 119.37 22.0158ZM147.8 11.204H139.732L139.736 33.5843H141.998V25.27H147.803C149.699 25.3137 151.531 24.5863 152.872 23.2567C154.213 21.9272 154.947 20.1115 154.903 18.2318C154.944 16.3533 154.209 14.5397 152.867 13.2124C151.526 11.885 149.695 11.1594 147.8 11.204ZM141.995 23.1681H147.8C149.1 23.2138 150.36 22.7143 151.27 21.7922C152.205 20.8481 152.707 19.5643 152.658 18.2421C152.703 16.9299 152.201 15.6572 151.27 14.7231C150.369 13.7841 149.106 13.272 147.8 13.3161H141.998L141.995 23.1681ZM170.067 20.7169V17.5886H172.197V33.5843H170.067V30.4505C168.584 32.7966 166.412 33.9696 163.55 33.9696C161.33 34.0002 159.195 33.1201 157.651 31.5375C156.054 29.9669 155.176 27.816 155.222 25.5864C155.177 23.357 156.055 21.2064 157.651 19.6353C159.195 18.0527 161.33 17.1727 163.55 17.2033C166.41 17.201 168.582 18.3722 170.067 20.7169ZM159.195 30.0962C161.706 32.5186 165.706 32.5186 168.217 30.0962C169.419 28.9008 170.083 27.2742 170.056 25.5864C170.056 22.1059 167.21 19.2844 163.699 19.2844C160.189 19.2844 157.342 22.1059 157.342 25.5864C157.321 27.2759 157.989 28.9022 159.195 30.0962ZM187.753 17.5782L182.524 30.994L176.455 17.5886H174.196L181.445 33.6806L181.025 34.6713C180.014 37.1183 178.54 38.2271 176.604 37.9978V39.9826C177.98 40.0933 179.347 39.6758 180.421 38.8165C181.645 37.8273 182.575 36.528 183.114 35.0566L190.012 17.5782H187.753Z"
+        						fill="#fff" />
+        					<path fill-rule="evenodd" clip-rule="evenodd"
+        						d="M196.626 0H200.134C200.142 2.33128 201.085 4.56382 202.754 6.20566C204.411 7.84947 206.656 8.77693 209 8.78562V12.2634C204.112 12.2748 200.155 16.2038 200.152 21.049H196.643C196.638 16.1992 192.673 12.2691 187.781 12.2634V8.78562C190.125 8.77821 192.37 7.85197 194.027 6.2091C195.687 4.56111 196.621 2.32883 196.626 0ZM194.089 10.5262C195.847 11.5659 197.32 13.0177 198.378 14.7539C199.431 13.0189 200.898 11.567 202.65 10.5262C200.898 9.48337 199.432 8.03055 198.378 6.2951C197.319 8.03172 195.846 9.48448 194.089 10.5262Z"
+        						fill="#F00000" />
+        				</svg>
+        			</div>
+        			<div class="popup__title">
+        				Gl<span class="popup__star star"></span>bal
+        			</div>
+        			<div class="popup__left-pic">
+        				<img src="img/popup/image.png" alt="">
+        			</div>
+        		</div>
+        		<div class="popup__right">
+        			<h3>
+        				Create Account
+        			</h3>
+        			<p class="popup__desc">
+        				Managing your finances efficiently
+        			</p>
+        			<form action="" class="popup__form">
+        				<div class="popup__form-top">
+        					<div class="popup__input-wrapper">
+        						<input type="email" placeholder="Email">
+        					</div>
+        					<div class="popup__input-wrapper password">
+        						<div class="popup__input-abs">
+        							<img class="active" src="img/main/eye.svg" alt="">
+        							<img class="" src="img/main/eye-closed.svg" alt="">
+        						</div>
+        						<input type="password" minlength="8" placeholder="Password">
+        						<div class="popup__invalid-password">
+        							Create a password with at least 8 characters
+        						</div>
+        					</div>
+        					<div class="popup__input-wrapper repassword">
+        						<div class="popup__input-abs">
+        							<img class="active" src="img/main/eye.svg" alt="">
+        							<img class="" src="img/main/eye-closed.svg" alt="">
+        						</div>
+        						<input type="password" minlength="8" placeholder="Re-password">
+        						<div class="popup__invalid-password">
+        							Create a password with at least 8 characters
+        						</div>
+        					</div>
+        					<label for="checkbox" class="popup__checkbox">Tick to agree with <a href="#!">Terms of Use</a> and
+        						<a href="#!">Privacy Policy</a>
+        						<input type="checkbox" id="checkbox">
+        						<div class="popup__checkbox-fake"></div>
+        					</label>
+        					<div class="popup__input-wrapper">
+        						<input type="submit" class="button--red button" value="Sign Up">
+        					</div>
+        				</div>
+        			</form>
+        			<span class="signin">Already have an account?<a href="#login" rel='fancy1' data-fancybox>&nbsp;Sign
+        					In</a></span>
+        		</div>
+        	</div>
+        </header>
+        <main class="main main--promo">
+            <section class="stellar">
+                <div class="wrapper">
+                    <h2 class="stellar__title ">
+                        <div class="wow fadeInUp"> A Stellar</div>
+                        <div class="wow fadeInUp" data-wow-delay=".5s"><span class="accent">S<span
+                                    class="star stellar__star"></span>lution</span> for</div>
+                    </h2>
+                    <div class="wow fadeIn" data-wow-delay=".9s">
+                        <div class="stellar__arrow ">
+                            <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M58 24V34C44.7452 34 34 44.7452 34 58H24C24 39.2223 39.2223 24 58 24Z" fill="#Ff0000" />
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M0 24V34C13.2548 34 24 44.7452 24 58H34C34 39.2223 18.7777 24 0 24Z" fill="#ff0000" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="stellar__subtitle wow fadeIn">
+                        <h2 class="stellar__subtitle-item stellar-first">
+                            <div>International</div>
+                            <div>Global Money</div>
+                            <div>Streamlined Business Finance</div>
+                        </h2>
+                    </div>
+                    <div class="stellar__subtitle wow fadeIn">
+                        <h2 class="stellar__subtitle-item stellar-second">
+                            <div>Multi-Currency Accounts</div>
+                            <div>Transfers</div>
+                            <div>Management</div>
+                        </h2>
+                    </div>
+                    <p class="stellar__desc wow fadeIn" data-wow-delay=".9s">
+                        Country for your Cepheus account
+                    </p>
+                    <div class="stellar__wrapper wow fadeIn" data-wow-delay=".9s">
+                        <a href="main.html" class="stellar__item button button--dark">
+                            <div class="stellar__item-pic"><img src="img/main/uk.png" alt=""></div>
+                            <span class="stellar__item-banner">United Kingdom</span>
+                        </a>
+                        <a href="#!" class="stellar__item button button--dark">
+                            <div class="stellar__item-pic"><img src="img/main/ca.png" alt=""></div>
+                            <span class="stellar__item-banner">Canada</span>
+                        </a>
+                        <a href="#!" class="stellar__item button button--dark">
+                            <div class="stellar__item-pic"><img src="img/main/kz.png" alt=""></div>
+                            <span class="stellar__item-banner">Kazakhstan</span>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="news">
+                <div class="wrapper">
+                    <h2 class="news__title wow fadeInUp">
+                        News
+                    </h2>
+                    <div class="news__wrapper wow fadeIn">
+                        <a href="#!" class="news__item">
+                            <div class="news__item-pic"><img src="img/start/news-1.png" alt=""></div>
+                            <div class="news__item-content">
+                                <h3 class="news__item-title">Cepheus Pay for Business</h3>
+                                <div class="news__item-top">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.875 10.5C6.13333 9.5 3.99167 9.5 2.25 10.5" stroke="red" stroke-width="1.15"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M6 4.05159L5.32783 3.82753C4.92494 3.69323 4.484 3.73601 4.11444 3.94525C3.74488 4.1545 3.48133 4.51059 3.3892 4.92516L2.32144 9.73011C2.27396 9.94379 2.25 10.162 2.25 10.3809V12C2.25 13.2426 3.25736 14.25 4.5 14.25H5.46375C6.61969 14.25 7.58756 13.3741 7.70258 12.2239L7.875 10.5"
+                                            stroke="white" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M12 4.05159L12.6722 3.82753C13.0751 3.69323 13.516 3.73601 13.8856 3.94525C14.2551 4.1545 14.5187 4.51059 14.6108 4.92516L15.6786 9.73011C15.726 9.94379 15.75 10.162 15.75 10.3809V12C15.75 13.2426 14.7426 14.25 13.5 14.25H12.5363C11.3803 14.25 10.4124 13.3741 10.2974 12.2239L10.125 10.5"
+                                            stroke="white" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M7.875 10.5C8.54167 10 9.45833 10 10.125 10.5" stroke="white"
+                                            stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M15.75 10.5C14.0083 9.5 11.8667 9.5 10.125 10.5" stroke="white"
+                                            stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    <span class="news__item-time">
+                                        Reading time 5 min.
+                                    </span>
+                                </div>
+                                <p class="news__item-desc">"Introducing Cepheus Business Account - your all-in-one online
+                                    multi-currency solution. Say goodbye to high rates, hidd …</p>
+                                <div class="news__item-bottom">
+                                    <div class="news__item-linkedin">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M0 12C0 5.38278 5.3833 0 12 0C18.6167 0 24 5.38278 24 12C24 18.6172 18.6167 24 12 24C5.3833 24 0 18.6172 0 12ZM8.34783 17.2174V9.3913H6.26087V17.2174H8.34783ZM7.30435 7.82609C6.72783 7.82609 6.26087 7.35913 6.26087 6.78261C6.26087 6.20609 6.72783 5.73913 7.30435 5.73913C7.88087 5.73913 8.34783 6.20609 8.34783 6.78261C8.34783 7.35913 7.88087 7.82609 7.30435 7.82609ZM16.1739 17.2174H18.2609V12.7826C18.2609 10.9096 16.7426 9.3913 14.8696 9.3913C13.9576 9.3913 13.1311 9.75339 12.5217 10.3388V9.3913H10.4348V17.2174H12.5217V13.3043C12.5217 12.3 13.3435 11.4783 14.3478 11.4783C15.3522 11.4783 16.1739 12.3 16.1739 13.3043V14.6087V17.2174Z"
+                                                fill="white" />
+                                        </svg>
+                                    </div>
+                                    <div class="news__item-date">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g opacity="0.5">
+                                                <path d="M5.25 5.25H12.75" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M14.25 2.367H3.75C2.92125 2.367 2.25 3.03825 2.25 3.867V14.25C2.25 15.0788 2.92125 15.75 3.75 15.75H14.25C15.0788 15.75 15.75 15.0788 15.75 14.25V3.867C15.75 3.03825 15.0788 2.367 14.25 2.367Z"
+                                                    stroke="white" stroke-width="1.15" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path d="M10.413 12.75H12.825" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M11.619 12.75V8.25L10.305 9.438" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path
+                                                    d="M5.625 9.114C5.76825 8.619 6.2055 8.25 6.74625 8.25C7.40175 8.25 7.9335 8.781 7.9335 9.43725C7.9335 10.0238 7.45725 10.5 6.87075 10.5C7.45725 10.5 7.9335 10.9763 7.9335 11.5628C7.9335 12.2183 7.4025 12.75 6.74625 12.75C6.2055 12.75 5.76825 12.381 5.625 11.886"
+                                                    stroke="white" stroke-width="1.15" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </g>
+                                        </svg>
+                                        <span>
+                                            12 May 2023
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#!" class="news__item">
+                            <div class="news__item-pic"><img src="img/start/news-2.png" alt=""></div>
+                            <div class="news__item-content">
+                                <h3 class="news__item-title">Safety of your money</h3>
+                                <div class="news__item-top">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.875 10.5C6.13333 9.5 3.99167 9.5 2.25 10.5" stroke="white"
+                                            stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M6 4.05159L5.32783 3.82753C4.92494 3.69323 4.484 3.73601 4.11444 3.94525C3.74488 4.1545 3.48133 4.51059 3.3892 4.92516L2.32144 9.73011C2.27396 9.94379 2.25 10.162 2.25 10.3809V12C2.25 13.2426 3.25736 14.25 4.5 14.25H5.46375C6.61969 14.25 7.58756 13.3741 7.70258 12.2239L7.875 10.5"
+                                            stroke="white" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M12 4.05159L12.6722 3.82753C13.0751 3.69323 13.516 3.73601 13.8856 3.94525C14.2551 4.1545 14.5187 4.51059 14.6108 4.92516L15.6786 9.73011C15.726 9.94379 15.75 10.162 15.75 10.3809V12C15.75 13.2426 14.7426 14.25 13.5 14.25H12.5363C11.3803 14.25 10.4124 13.3741 10.2974 12.2239L10.125 10.5"
+                                            stroke="white" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M7.875 10.5C8.54167 10 9.45833 10 10.125 10.5" stroke="white"
+                                            stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M15.75 10.5C14.0083 9.5 11.8667 9.5 10.125 10.5" stroke="white"
+                                            stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    <span class="news__item-time">
+                                        Reading time 5 min.
+                                    </span>
+                                </div>
+                                <p class="news__item-desc">"Step away from traditional banking with Cepheus Pay. We are not your
+                                    average bank, but instead, we hold regulatory …</p>
+                                <div class="news__item-bottom">
+                                    <div class="news__item-linkedin">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M0 12C0 5.38278 5.3833 0 12 0C18.6167 0 24 5.38278 24 12C24 18.6172 18.6167 24 12 24C5.3833 24 0 18.6172 0 12ZM8.34783 17.2174V9.3913H6.26087V17.2174H8.34783ZM7.30435 7.82609C6.72783 7.82609 6.26087 7.35913 6.26087 6.78261C6.26087 6.20609 6.72783 5.73913 7.30435 5.73913C7.88087 5.73913 8.34783 6.20609 8.34783 6.78261C8.34783 7.35913 7.88087 7.82609 7.30435 7.82609ZM16.1739 17.2174H18.2609V12.7826C18.2609 10.9096 16.7426 9.3913 14.8696 9.3913C13.9576 9.3913 13.1311 9.75339 12.5217 10.3388V9.3913H10.4348V17.2174H12.5217V13.3043C12.5217 12.3 13.3435 11.4783 14.3478 11.4783C15.3522 11.4783 16.1739 12.3 16.1739 13.3043V14.6087V17.2174Z"
+                                                fill="white" />
+                                        </svg>
+                                    </div>
+                                    <div class="news__item-date">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g opacity="0.5">
+                                                <path d="M5.25 5.25H12.75" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M14.25 2.367H3.75C2.92125 2.367 2.25 3.03825 2.25 3.867V14.25C2.25 15.0788 2.92125 15.75 3.75 15.75H14.25C15.0788 15.75 15.75 15.0788 15.75 14.25V3.867C15.75 3.03825 15.0788 2.367 14.25 2.367Z"
+                                                    stroke="white" stroke-width="1.15" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path d="M10.413 12.75H12.825" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M11.619 12.75V8.25L10.305 9.438" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path
+                                                    d="M5.625 9.114C5.76825 8.619 6.2055 8.25 6.74625 8.25C7.40175 8.25 7.9335 8.781 7.9335 9.43725C7.9335 10.0238 7.45725 10.5 6.87075 10.5C7.45725 10.5 7.9335 10.9763 7.9335 11.5628C7.9335 12.2183 7.4025 12.75 6.74625 12.75C6.2055 12.75 5.76825 12.381 5.625 11.886"
+                                                    stroke="white" stroke-width="1.15" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </g>
+                                        </svg>
+                                        <span>
+                                            12 May 2023
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#!" class="news__item">
+                            <div class="news__item-pic"><img src="img/start/news-3.png" alt=""></div>
+                            <div class="news__item-content">
+                                <h3 class="news__item-title">THUNES</h3>
+                                <div class="news__item-top">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.875 10.5C6.13333 9.5 3.99167 9.5 2.25 10.5" stroke="white"
+                                            stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M6 4.05159L5.32783 3.82753C4.92494 3.69323 4.484 3.73601 4.11444 3.94525C3.74488 4.1545 3.48133 4.51059 3.3892 4.92516L2.32144 9.73011C2.27396 9.94379 2.25 10.162 2.25 10.3809V12C2.25 13.2426 3.25736 14.25 4.5 14.25H5.46375C6.61969 14.25 7.58756 13.3741 7.70258 12.2239L7.875 10.5"
+                                            stroke="white" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M12 4.05159L12.6722 3.82753C13.0751 3.69323 13.516 3.73601 13.8856 3.94525C14.2551 4.1545 14.5187 4.51059 14.6108 4.92516L15.6786 9.73011C15.726 9.94379 15.75 10.162 15.75 10.3809V12C15.75 13.2426 14.7426 14.25 13.5 14.25H12.5363C11.3803 14.25 10.4124 13.3741 10.2974 12.2239L10.125 10.5"
+                                            stroke="white" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M7.875 10.5C8.54167 10 9.45833 10 10.125 10.5" stroke="white"
+                                            stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M15.75 10.5C14.0083 9.5 11.8667 9.5 10.125 10.5" stroke="white"
+                                            stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    <span class="news__item-time">
+                                        Reading time 5 min.
+                                    </span>
+                                </div>
+                                <p class="news__item-desc">Exciting news for our customers!
+                                    We are excited to announce our partnership with Thunes, a leading cross-…</p>
+                                <div class="news__item-bottom">
+                                    <div class="news__item-linkedin">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M0 12C0 5.38278 5.3833 0 12 0C18.6167 0 24 5.38278 24 12C24 18.6172 18.6167 24 12 24C5.3833 24 0 18.6172 0 12ZM8.34783 17.2174V9.3913H6.26087V17.2174H8.34783ZM7.30435 7.82609C6.72783 7.82609 6.26087 7.35913 6.26087 6.78261C6.26087 6.20609 6.72783 5.73913 7.30435 5.73913C7.88087 5.73913 8.34783 6.20609 8.34783 6.78261C8.34783 7.35913 7.88087 7.82609 7.30435 7.82609ZM16.1739 17.2174H18.2609V12.7826C18.2609 10.9096 16.7426 9.3913 14.8696 9.3913C13.9576 9.3913 13.1311 9.75339 12.5217 10.3388V9.3913H10.4348V17.2174H12.5217V13.3043C12.5217 12.3 13.3435 11.4783 14.3478 11.4783C15.3522 11.4783 16.1739 12.3 16.1739 13.3043V14.6087V17.2174Z"
+                                                fill="white" />
+                                        </svg>
+                                    </div>
+                                    <div class="news__item-date">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g opacity="0.5">
+                                                <path d="M5.25 5.25H12.75" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M14.25 2.367H3.75C2.92125 2.367 2.25 3.03825 2.25 3.867V14.25C2.25 15.0788 2.92125 15.75 3.75 15.75H14.25C15.0788 15.75 15.75 15.0788 15.75 14.25V3.867C15.75 3.03825 15.0788 2.367 14.25 2.367Z"
+                                                    stroke="white" stroke-width="1.15" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path d="M10.413 12.75H12.825" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M11.619 12.75V8.25L10.305 9.438" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path
+                                                    d="M5.625 9.114C5.76825 8.619 6.2055 8.25 6.74625 8.25C7.40175 8.25 7.9335 8.781 7.9335 9.43725C7.9335 10.0238 7.45725 10.5 6.87075 10.5C7.45725 10.5 7.9335 10.9763 7.9335 11.5628C7.9335 12.2183 7.4025 12.75 6.74625 12.75C6.2055 12.75 5.76825 12.381 5.625 11.886"
+                                                    stroke="white" stroke-width="1.15" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </g>
+                                        </svg>
+                                        <span>
+                                            12 May 2023
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#!" class="news__item">
+                            <div class="news__item-pic"><img src="img/start/news-4.png" alt=""></div>
+                            <div class="news__item-content">
+                                <h3 class="news__item-title">IBAN</h3>
+                                <div class="news__item-top">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.875 10.5C6.13333 9.5 3.99167 9.5 2.25 10.5" stroke="white"
+                                            stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M6 4.05159L5.32783 3.82753C4.92494 3.69323 4.484 3.73601 4.11444 3.94525C3.74488 4.1545 3.48133 4.51059 3.3892 4.92516L2.32144 9.73011C2.27396 9.94379 2.25 10.162 2.25 10.3809V12C2.25 13.2426 3.25736 14.25 4.5 14.25H5.46375C6.61969 14.25 7.58756 13.3741 7.70258 12.2239L7.875 10.5"
+                                            stroke="white" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M12 4.05159L12.6722 3.82753C13.0751 3.69323 13.516 3.73601 13.8856 3.94525C14.2551 4.1545 14.5187 4.51059 14.6108 4.92516L15.6786 9.73011C15.726 9.94379 15.75 10.162 15.75 10.3809V12C15.75 13.2426 14.7426 14.25 13.5 14.25H12.5363C11.3803 14.25 10.4124 13.3741 10.2974 12.2239L10.125 10.5"
+                                            stroke="white" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M7.875 10.5C8.54167 10 9.45833 10 10.125 10.5" stroke="white"
+                                            stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M15.75 10.5C14.0083 9.5 11.8667 9.5 10.125 10.5" stroke="white"
+                                            stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    <span class="news__item-time">
+                                        Reading time 5 min.
+                                    </span>
+                                </div>
+                                <p class="news__item-desc">Unleashing the Power of IBAN - When you open a Cepheus Personal or
+                                    Business account, you'll receive a UK International …</p>
+                                <div class="news__item-bottom">
+                                    <div class="news__item-linkedin">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M0 12C0 5.38278 5.3833 0 12 0C18.6167 0 24 5.38278 24 12C24 18.6172 18.6167 24 12 24C5.3833 24 0 18.6172 0 12ZM8.34783 17.2174V9.3913H6.26087V17.2174H8.34783ZM7.30435 7.82609C6.72783 7.82609 6.26087 7.35913 6.26087 6.78261C6.26087 6.20609 6.72783 5.73913 7.30435 5.73913C7.88087 5.73913 8.34783 6.20609 8.34783 6.78261C8.34783 7.35913 7.88087 7.82609 7.30435 7.82609ZM16.1739 17.2174H18.2609V12.7826C18.2609 10.9096 16.7426 9.3913 14.8696 9.3913C13.9576 9.3913 13.1311 9.75339 12.5217 10.3388V9.3913H10.4348V17.2174H12.5217V13.3043C12.5217 12.3 13.3435 11.4783 14.3478 11.4783C15.3522 11.4783 16.1739 12.3 16.1739 13.3043V14.6087V17.2174Z"
+                                                fill="white" />
+                                        </svg>
+                                    </div>
+                                    <div class="news__item-date">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g opacity="0.5">
+                                                <path d="M5.25 5.25H12.75" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M14.25 2.367H3.75C2.92125 2.367 2.25 3.03825 2.25 3.867V14.25C2.25 15.0788 2.92125 15.75 3.75 15.75H14.25C15.0788 15.75 15.75 15.0788 15.75 14.25V3.867C15.75 3.03825 15.0788 2.367 14.25 2.367Z"
+                                                    stroke="white" stroke-width="1.15" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path d="M10.413 12.75H12.825" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M11.619 12.75V8.25L10.305 9.438" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path
+                                                    d="M5.625 9.114C5.76825 8.619 6.2055 8.25 6.74625 8.25C7.40175 8.25 7.9335 8.781 7.9335 9.43725C7.9335 10.0238 7.45725 10.5 6.87075 10.5C7.45725 10.5 7.9335 10.9763 7.9335 11.5628C7.9335 12.2183 7.4025 12.75 6.74625 12.75C6.2055 12.75 5.76825 12.381 5.625 11.886"
+                                                    stroke="white" stroke-width="1.15" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </g>
+                                        </svg>
+                                        <span>
+                                            12 May 2023
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#!" class="news__item">
+                            <div class="news__item-pic"><img src="img/start/news-5.png" alt=""></div>
+                            <div class="news__item-content">
+                                <h3 class="news__item-title">SEPA: An Efficient Solution for Pan-European Payments</h3>
+                                <div class="news__item-top">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.875 10.5C6.13333 9.5 3.99167 9.5 2.25 10.5" stroke="white"
+                                            stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M6 4.05159L5.32783 3.82753C4.92494 3.69323 4.484 3.73601 4.11444 3.94525C3.74488 4.1545 3.48133 4.51059 3.3892 4.92516L2.32144 9.73011C2.27396 9.94379 2.25 10.162 2.25 10.3809V12C2.25 13.2426 3.25736 14.25 4.5 14.25H5.46375C6.61969 14.25 7.58756 13.3741 7.70258 12.2239L7.875 10.5"
+                                            stroke="white" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M12 4.05159L12.6722 3.82753C13.0751 3.69323 13.516 3.73601 13.8856 3.94525C14.2551 4.1545 14.5187 4.51059 14.6108 4.92516L15.6786 9.73011C15.726 9.94379 15.75 10.162 15.75 10.3809V12C15.75 13.2426 14.7426 14.25 13.5 14.25H12.5363C11.3803 14.25 10.4124 13.3741 10.2974 12.2239L10.125 10.5"
+                                            stroke="white" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M7.875 10.5C8.54167 10 9.45833 10 10.125 10.5" stroke="white"
+                                            stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M15.75 10.5C14.0083 9.5 11.8667 9.5 10.125 10.5" stroke="white"
+                                            stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    <span class="news__item-time">
+                                        Reading time 5 min.
+                                    </span>
+                                </div>
+                                <p class="news__item-desc">"Introducing Cepheus Business Account - your all-in-one online
+                                    multi-currency solution. Say goodbye to high rates, hi …</p>
+                                <div class="news__item-bottom">
+                                    <div class="news__item-linkedin">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M0 12C0 5.38278 5.3833 0 12 0C18.6167 0 24 5.38278 24 12C24 18.6172 18.6167 24 12 24C5.3833 24 0 18.6172 0 12ZM8.34783 17.2174V9.3913H6.26087V17.2174H8.34783ZM7.30435 7.82609C6.72783 7.82609 6.26087 7.35913 6.26087 6.78261C6.26087 6.20609 6.72783 5.73913 7.30435 5.73913C7.88087 5.73913 8.34783 6.20609 8.34783 6.78261C8.34783 7.35913 7.88087 7.82609 7.30435 7.82609ZM16.1739 17.2174H18.2609V12.7826C18.2609 10.9096 16.7426 9.3913 14.8696 9.3913C13.9576 9.3913 13.1311 9.75339 12.5217 10.3388V9.3913H10.4348V17.2174H12.5217V13.3043C12.5217 12.3 13.3435 11.4783 14.3478 11.4783C15.3522 11.4783 16.1739 12.3 16.1739 13.3043V14.6087V17.2174Z"
+                                                fill="white" />
+                                        </svg>
+                                    </div>
+                                    <div class="news__item-date">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g opacity="0.5">
+                                                <path d="M5.25 5.25H12.75" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M14.25 2.367H3.75C2.92125 2.367 2.25 3.03825 2.25 3.867V14.25C2.25 15.0788 2.92125 15.75 3.75 15.75H14.25C15.0788 15.75 15.75 15.0788 15.75 14.25V3.867C15.75 3.03825 15.0788 2.367 14.25 2.367Z"
+                                                    stroke="white" stroke-width="1.15" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path d="M10.413 12.75H12.825" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M11.619 12.75V8.25L10.305 9.438" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path
+                                                    d="M5.625 9.114C5.76825 8.619 6.2055 8.25 6.74625 8.25C7.40175 8.25 7.9335 8.781 7.9335 9.43725C7.9335 10.0238 7.45725 10.5 6.87075 10.5C7.45725 10.5 7.9335 10.9763 7.9335 11.5628C7.9335 12.2183 7.4025 12.75 6.74625 12.75C6.2055 12.75 5.76825 12.381 5.625 11.886"
+                                                    stroke="white" stroke-width="1.15" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </g>
+                                        </svg>
+                                        <span>
+                                            12 May 2023
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#!" class="news__item">
+                            <div class="news__item-pic"><img src="img/start/news-6.png" alt=""></div>
+                            <div class="news__item-content">
+                                <h3 class="news__item-title">Cepheus Pay for Business</h3>
+                                <div class="news__item-top">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.875 10.5C6.13333 9.5 3.99167 9.5 2.25 10.5" stroke="white"
+                                            stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M6 4.05159L5.32783 3.82753C4.92494 3.69323 4.484 3.73601 4.11444 3.94525C3.74488 4.1545 3.48133 4.51059 3.3892 4.92516L2.32144 9.73011C2.27396 9.94379 2.25 10.162 2.25 10.3809V12C2.25 13.2426 3.25736 14.25 4.5 14.25H5.46375C6.61969 14.25 7.58756 13.3741 7.70258 12.2239L7.875 10.5"
+                                            stroke="white" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M12 4.05159L12.6722 3.82753C13.0751 3.69323 13.516 3.73601 13.8856 3.94525C14.2551 4.1545 14.5187 4.51059 14.6108 4.92516L15.6786 9.73011C15.726 9.94379 15.75 10.162 15.75 10.3809V12C15.75 13.2426 14.7426 14.25 13.5 14.25H12.5363C11.3803 14.25 10.4124 13.3741 10.2974 12.2239L10.125 10.5"
+                                            stroke="white" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M7.875 10.5C8.54167 10 9.45833 10 10.125 10.5" stroke="white"
+                                            stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M15.75 10.5C14.0083 9.5 11.8667 9.5 10.125 10.5" stroke="white"
+                                            stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    <span class="news__item-time">
+                                        Reading time 5 min.
+                                    </span>
+                                </div>
+                                <p class="news__item-desc">"Introducing Cepheus Business Account - your all-in-one online
+                                    multi-currency solution. Say goodbye to high rates, hidd …</p>
+                                <div class="news__item-bottom">
+                                    <div class="news__item-linkedin">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M0 12C0 5.38278 5.3833 0 12 0C18.6167 0 24 5.38278 24 12C24 18.6172 18.6167 24 12 24C5.3833 24 0 18.6172 0 12ZM8.34783 17.2174V9.3913H6.26087V17.2174H8.34783ZM7.30435 7.82609C6.72783 7.82609 6.26087 7.35913 6.26087 6.78261C6.26087 6.20609 6.72783 5.73913 7.30435 5.73913C7.88087 5.73913 8.34783 6.20609 8.34783 6.78261C8.34783 7.35913 7.88087 7.82609 7.30435 7.82609ZM16.1739 17.2174H18.2609V12.7826C18.2609 10.9096 16.7426 9.3913 14.8696 9.3913C13.9576 9.3913 13.1311 9.75339 12.5217 10.3388V9.3913H10.4348V17.2174H12.5217V13.3043C12.5217 12.3 13.3435 11.4783 14.3478 11.4783C15.3522 11.4783 16.1739 12.3 16.1739 13.3043V14.6087V17.2174Z"
+                                                fill="white" />
+                                        </svg>
+                                    </div>
+                                    <div class="news__item-date">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g opacity="0.5">
+                                                <path d="M5.25 5.25H12.75" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M14.25 2.367H3.75C2.92125 2.367 2.25 3.03825 2.25 3.867V14.25C2.25 15.0788 2.92125 15.75 3.75 15.75H14.25C15.0788 15.75 15.75 15.0788 15.75 14.25V3.867C15.75 3.03825 15.0788 2.367 14.25 2.367Z"
+                                                    stroke="white" stroke-width="1.15" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path d="M10.413 12.75H12.825" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M11.619 12.75V8.25L10.305 9.438" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path
+                                                    d="M5.625 9.114C5.76825 8.619 6.2055 8.25 6.74625 8.25C7.40175 8.25 7.9335 8.781 7.9335 9.43725C7.9335 10.0238 7.45725 10.5 6.87075 10.5C7.45725 10.5 7.9335 10.9763 7.9335 11.5628C7.9335 12.2183 7.4025 12.75 6.74625 12.75C6.2055 12.75 5.76825 12.381 5.625 11.886"
+                                                    stroke="white" stroke-width="1.15" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </g>
+                                        </svg>
+                                        <span>
+                                            12 May 2023
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#!" class="news__item hidden">
+                            <div class="news__item-pic"><img src="img/start/news-1.png" alt=""></div>
+                            <div class="news__item-content">
+                                <h3 class="news__item-title">Cepheus Pay for Business</h3>
+                                <div class="news__item-top">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.875 10.5C6.13333 9.5 3.99167 9.5 2.25 10.5" stroke="red" stroke-width="1.15"
+                                            stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M6 4.05159L5.32783 3.82753C4.92494 3.69323 4.484 3.73601 4.11444 3.94525C3.74488 4.1545 3.48133 4.51059 3.3892 4.92516L2.32144 9.73011C2.27396 9.94379 2.25 10.162 2.25 10.3809V12C2.25 13.2426 3.25736 14.25 4.5 14.25H5.46375C6.61969 14.25 7.58756 13.3741 7.70258 12.2239L7.875 10.5"
+                                            stroke="white" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M12 4.05159L12.6722 3.82753C13.0751 3.69323 13.516 3.73601 13.8856 3.94525C14.2551 4.1545 14.5187 4.51059 14.6108 4.92516L15.6786 9.73011C15.726 9.94379 15.75 10.162 15.75 10.3809V12C15.75 13.2426 14.7426 14.25 13.5 14.25H12.5363C11.3803 14.25 10.4124 13.3741 10.2974 12.2239L10.125 10.5"
+                                            stroke="white" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M7.875 10.5C8.54167 10 9.45833 10 10.125 10.5" stroke="white"
+                                            stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M15.75 10.5C14.0083 9.5 11.8667 9.5 10.125 10.5" stroke="white"
+                                            stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    <span class="news__item-time">
+                                        Reading time 5 min.
+                                    </span>
+                                </div>
+                                <p class="news__item-desc">"Introducing Cepheus Business Account - your all-in-one online
+                                    multi-currency solution. Say goodbye to high rates, hidd …</p>
+                                <div class="news__item-bottom">
+                                    <div class="news__item-linkedin">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M0 12C0 5.38278 5.3833 0 12 0C18.6167 0 24 5.38278 24 12C24 18.6172 18.6167 24 12 24C5.3833 24 0 18.6172 0 12ZM8.34783 17.2174V9.3913H6.26087V17.2174H8.34783ZM7.30435 7.82609C6.72783 7.82609 6.26087 7.35913 6.26087 6.78261C6.26087 6.20609 6.72783 5.73913 7.30435 5.73913C7.88087 5.73913 8.34783 6.20609 8.34783 6.78261C8.34783 7.35913 7.88087 7.82609 7.30435 7.82609ZM16.1739 17.2174H18.2609V12.7826C18.2609 10.9096 16.7426 9.3913 14.8696 9.3913C13.9576 9.3913 13.1311 9.75339 12.5217 10.3388V9.3913H10.4348V17.2174H12.5217V13.3043C12.5217 12.3 13.3435 11.4783 14.3478 11.4783C15.3522 11.4783 16.1739 12.3 16.1739 13.3043V14.6087V17.2174Z"
+                                                fill="white" />
+                                        </svg>
+                                    </div>
+                                    <div class="news__item-date">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g opacity="0.5">
+                                                <path d="M5.25 5.25H12.75" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M14.25 2.367H3.75C2.92125 2.367 2.25 3.03825 2.25 3.867V14.25C2.25 15.0788 2.92125 15.75 3.75 15.75H14.25C15.0788 15.75 15.75 15.0788 15.75 14.25V3.867C15.75 3.03825 15.0788 2.367 14.25 2.367Z"
+                                                    stroke="white" stroke-width="1.15" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path d="M10.413 12.75H12.825" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M11.619 12.75V8.25L10.305 9.438" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path
+                                                    d="M5.625 9.114C5.76825 8.619 6.2055 8.25 6.74625 8.25C7.40175 8.25 7.9335 8.781 7.9335 9.43725C7.9335 10.0238 7.45725 10.5 6.87075 10.5C7.45725 10.5 7.9335 10.9763 7.9335 11.5628C7.9335 12.2183 7.4025 12.75 6.74625 12.75C6.2055 12.75 5.76825 12.381 5.625 11.886"
+                                                    stroke="white" stroke-width="1.15" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </g>
+                                        </svg>
+                                        <span>
+                                            12 May 2023
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#!" class="news__item hidden">
+                            <div class="news__item-pic"><img src="img/start/news-2.png" alt=""></div>
+                            <div class="news__item-content">
+                                <h3 class="news__item-title">Safety of your money</h3>
+                                <div class="news__item-top">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.875 10.5C6.13333 9.5 3.99167 9.5 2.25 10.5" stroke="white"
+                                            stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M6 4.05159L5.32783 3.82753C4.92494 3.69323 4.484 3.73601 4.11444 3.94525C3.74488 4.1545 3.48133 4.51059 3.3892 4.92516L2.32144 9.73011C2.27396 9.94379 2.25 10.162 2.25 10.3809V12C2.25 13.2426 3.25736 14.25 4.5 14.25H5.46375C6.61969 14.25 7.58756 13.3741 7.70258 12.2239L7.875 10.5"
+                                            stroke="white" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M12 4.05159L12.6722 3.82753C13.0751 3.69323 13.516 3.73601 13.8856 3.94525C14.2551 4.1545 14.5187 4.51059 14.6108 4.92516L15.6786 9.73011C15.726 9.94379 15.75 10.162 15.75 10.3809V12C15.75 13.2426 14.7426 14.25 13.5 14.25H12.5363C11.3803 14.25 10.4124 13.3741 10.2974 12.2239L10.125 10.5"
+                                            stroke="white" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M7.875 10.5C8.54167 10 9.45833 10 10.125 10.5" stroke="white"
+                                            stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M15.75 10.5C14.0083 9.5 11.8667 9.5 10.125 10.5" stroke="white"
+                                            stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    <span class="news__item-time">
+                                        Reading time 5 min.
+                                    </span>
+                                </div>
+                                <p class="news__item-desc">"Step away from traditional banking with Cepheus Pay. We are not your
+                                    average bank, but instead, we hold regulatory …</p>
+                                <div class="news__item-bottom">
+                                    <div class="news__item-linkedin">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M0 12C0 5.38278 5.3833 0 12 0C18.6167 0 24 5.38278 24 12C24 18.6172 18.6167 24 12 24C5.3833 24 0 18.6172 0 12ZM8.34783 17.2174V9.3913H6.26087V17.2174H8.34783ZM7.30435 7.82609C6.72783 7.82609 6.26087 7.35913 6.26087 6.78261C6.26087 6.20609 6.72783 5.73913 7.30435 5.73913C7.88087 5.73913 8.34783 6.20609 8.34783 6.78261C8.34783 7.35913 7.88087 7.82609 7.30435 7.82609ZM16.1739 17.2174H18.2609V12.7826C18.2609 10.9096 16.7426 9.3913 14.8696 9.3913C13.9576 9.3913 13.1311 9.75339 12.5217 10.3388V9.3913H10.4348V17.2174H12.5217V13.3043C12.5217 12.3 13.3435 11.4783 14.3478 11.4783C15.3522 11.4783 16.1739 12.3 16.1739 13.3043V14.6087V17.2174Z"
+                                                fill="white" />
+                                        </svg>
+                                    </div>
+                                    <div class="news__item-date">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g opacity="0.5">
+                                                <path d="M5.25 5.25H12.75" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M14.25 2.367H3.75C2.92125 2.367 2.25 3.03825 2.25 3.867V14.25C2.25 15.0788 2.92125 15.75 3.75 15.75H14.25C15.0788 15.75 15.75 15.0788 15.75 14.25V3.867C15.75 3.03825 15.0788 2.367 14.25 2.367Z"
+                                                    stroke="white" stroke-width="1.15" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path d="M10.413 12.75H12.825" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M11.619 12.75V8.25L10.305 9.438" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path
+                                                    d="M5.625 9.114C5.76825 8.619 6.2055 8.25 6.74625 8.25C7.40175 8.25 7.9335 8.781 7.9335 9.43725C7.9335 10.0238 7.45725 10.5 6.87075 10.5C7.45725 10.5 7.9335 10.9763 7.9335 11.5628C7.9335 12.2183 7.4025 12.75 6.74625 12.75C6.2055 12.75 5.76825 12.381 5.625 11.886"
+                                                    stroke="white" stroke-width="1.15" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </g>
+                                        </svg>
+                                        <span>
+                                            12 May 2023
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#!" class="news__item hidden">
+                            <div class="news__item-pic"><img src="img/start/news-3.png" alt=""></div>
+                            <div class="news__item-content">
+                                <h3 class="news__item-title">THUNES</h3>
+                                <div class="news__item-top">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.875 10.5C6.13333 9.5 3.99167 9.5 2.25 10.5" stroke="white"
+                                            stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M6 4.05159L5.32783 3.82753C4.92494 3.69323 4.484 3.73601 4.11444 3.94525C3.74488 4.1545 3.48133 4.51059 3.3892 4.92516L2.32144 9.73011C2.27396 9.94379 2.25 10.162 2.25 10.3809V12C2.25 13.2426 3.25736 14.25 4.5 14.25H5.46375C6.61969 14.25 7.58756 13.3741 7.70258 12.2239L7.875 10.5"
+                                            stroke="white" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M12 4.05159L12.6722 3.82753C13.0751 3.69323 13.516 3.73601 13.8856 3.94525C14.2551 4.1545 14.5187 4.51059 14.6108 4.92516L15.6786 9.73011C15.726 9.94379 15.75 10.162 15.75 10.3809V12C15.75 13.2426 14.7426 14.25 13.5 14.25H12.5363C11.3803 14.25 10.4124 13.3741 10.2974 12.2239L10.125 10.5"
+                                            stroke="white" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M7.875 10.5C8.54167 10 9.45833 10 10.125 10.5" stroke="white"
+                                            stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M15.75 10.5C14.0083 9.5 11.8667 9.5 10.125 10.5" stroke="white"
+                                            stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    <span class="news__item-time">
+                                        Reading time 5 min.
+                                    </span>
+                                </div>
+                                <p class="news__item-desc">Exciting news for our customers!
+                                    We are excited to announce our partnership with Thunes, a leading cross-…</p>
+                                <div class="news__item-bottom">
+                                    <div class="news__item-linkedin">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M0 12C0 5.38278 5.3833 0 12 0C18.6167 0 24 5.38278 24 12C24 18.6172 18.6167 24 12 24C5.3833 24 0 18.6172 0 12ZM8.34783 17.2174V9.3913H6.26087V17.2174H8.34783ZM7.30435 7.82609C6.72783 7.82609 6.26087 7.35913 6.26087 6.78261C6.26087 6.20609 6.72783 5.73913 7.30435 5.73913C7.88087 5.73913 8.34783 6.20609 8.34783 6.78261C8.34783 7.35913 7.88087 7.82609 7.30435 7.82609ZM16.1739 17.2174H18.2609V12.7826C18.2609 10.9096 16.7426 9.3913 14.8696 9.3913C13.9576 9.3913 13.1311 9.75339 12.5217 10.3388V9.3913H10.4348V17.2174H12.5217V13.3043C12.5217 12.3 13.3435 11.4783 14.3478 11.4783C15.3522 11.4783 16.1739 12.3 16.1739 13.3043V14.6087V17.2174Z"
+                                                fill="white" />
+                                        </svg>
+                                    </div>
+                                    <div class="news__item-date">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g opacity="0.5">
+                                                <path d="M5.25 5.25H12.75" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M14.25 2.367H3.75C2.92125 2.367 2.25 3.03825 2.25 3.867V14.25C2.25 15.0788 2.92125 15.75 3.75 15.75H14.25C15.0788 15.75 15.75 15.0788 15.75 14.25V3.867C15.75 3.03825 15.0788 2.367 14.25 2.367Z"
+                                                    stroke="white" stroke-width="1.15" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path d="M10.413 12.75H12.825" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M11.619 12.75V8.25L10.305 9.438" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path
+                                                    d="M5.625 9.114C5.76825 8.619 6.2055 8.25 6.74625 8.25C7.40175 8.25 7.9335 8.781 7.9335 9.43725C7.9335 10.0238 7.45725 10.5 6.87075 10.5C7.45725 10.5 7.9335 10.9763 7.9335 11.5628C7.9335 12.2183 7.4025 12.75 6.74625 12.75C6.2055 12.75 5.76825 12.381 5.625 11.886"
+                                                    stroke="white" stroke-width="1.15" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </g>
+                                        </svg>
+                                        <span>
+                                            12 May 2023
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#!" class="news__item hidden">
+                            <div class="news__item-pic"><img src="img/start/news-4.png" alt=""></div>
+                            <div class="news__item-content">
+                                <h3 class="news__item-title">IBAN</h3>
+                                <div class="news__item-top">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.875 10.5C6.13333 9.5 3.99167 9.5 2.25 10.5" stroke="white"
+                                            stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M6 4.05159L5.32783 3.82753C4.92494 3.69323 4.484 3.73601 4.11444 3.94525C3.74488 4.1545 3.48133 4.51059 3.3892 4.92516L2.32144 9.73011C2.27396 9.94379 2.25 10.162 2.25 10.3809V12C2.25 13.2426 3.25736 14.25 4.5 14.25H5.46375C6.61969 14.25 7.58756 13.3741 7.70258 12.2239L7.875 10.5"
+                                            stroke="white" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M12 4.05159L12.6722 3.82753C13.0751 3.69323 13.516 3.73601 13.8856 3.94525C14.2551 4.1545 14.5187 4.51059 14.6108 4.92516L15.6786 9.73011C15.726 9.94379 15.75 10.162 15.75 10.3809V12C15.75 13.2426 14.7426 14.25 13.5 14.25H12.5363C11.3803 14.25 10.4124 13.3741 10.2974 12.2239L10.125 10.5"
+                                            stroke="white" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M7.875 10.5C8.54167 10 9.45833 10 10.125 10.5" stroke="white"
+                                            stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M15.75 10.5C14.0083 9.5 11.8667 9.5 10.125 10.5" stroke="white"
+                                            stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    <span class="news__item-time">
+                                        Reading time 5 min.
+                                    </span>
+                                </div>
+                                <p class="news__item-desc">Unleashing the Power of IBAN - When you open a Cepheus Personal or
+                                    Business account, you'll receive a UK International …</p>
+                                <div class="news__item-bottom">
+                                    <div class="news__item-linkedin">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M0 12C0 5.38278 5.3833 0 12 0C18.6167 0 24 5.38278 24 12C24 18.6172 18.6167 24 12 24C5.3833 24 0 18.6172 0 12ZM8.34783 17.2174V9.3913H6.26087V17.2174H8.34783ZM7.30435 7.82609C6.72783 7.82609 6.26087 7.35913 6.26087 6.78261C6.26087 6.20609 6.72783 5.73913 7.30435 5.73913C7.88087 5.73913 8.34783 6.20609 8.34783 6.78261C8.34783 7.35913 7.88087 7.82609 7.30435 7.82609ZM16.1739 17.2174H18.2609V12.7826C18.2609 10.9096 16.7426 9.3913 14.8696 9.3913C13.9576 9.3913 13.1311 9.75339 12.5217 10.3388V9.3913H10.4348V17.2174H12.5217V13.3043C12.5217 12.3 13.3435 11.4783 14.3478 11.4783C15.3522 11.4783 16.1739 12.3 16.1739 13.3043V14.6087V17.2174Z"
+                                                fill="white" />
+                                        </svg>
+                                    </div>
+                                    <div class="news__item-date">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g opacity="0.5">
+                                                <path d="M5.25 5.25H12.75" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M14.25 2.367H3.75C2.92125 2.367 2.25 3.03825 2.25 3.867V14.25C2.25 15.0788 2.92125 15.75 3.75 15.75H14.25C15.0788 15.75 15.75 15.0788 15.75 14.25V3.867C15.75 3.03825 15.0788 2.367 14.25 2.367Z"
+                                                    stroke="white" stroke-width="1.15" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path d="M10.413 12.75H12.825" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M11.619 12.75V8.25L10.305 9.438" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path
+                                                    d="M5.625 9.114C5.76825 8.619 6.2055 8.25 6.74625 8.25C7.40175 8.25 7.9335 8.781 7.9335 9.43725C7.9335 10.0238 7.45725 10.5 6.87075 10.5C7.45725 10.5 7.9335 10.9763 7.9335 11.5628C7.9335 12.2183 7.4025 12.75 6.74625 12.75C6.2055 12.75 5.76825 12.381 5.625 11.886"
+                                                    stroke="white" stroke-width="1.15" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </g>
+                                        </svg>
+                                        <span>
+                                            12 May 2023
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#!" class="news__item hidden">
+                            <div class="news__item-pic"><img src="img/start/news-5.png" alt=""></div>
+                            <div class="news__item-content">
+                                <h3 class="news__item-title">SEPA: An Efficient Solution for Pan-European Payments</h3>
+                                <div class="news__item-top">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.875 10.5C6.13333 9.5 3.99167 9.5 2.25 10.5" stroke="white"
+                                            stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M6 4.05159L5.32783 3.82753C4.92494 3.69323 4.484 3.73601 4.11444 3.94525C3.74488 4.1545 3.48133 4.51059 3.3892 4.92516L2.32144 9.73011C2.27396 9.94379 2.25 10.162 2.25 10.3809V12C2.25 13.2426 3.25736 14.25 4.5 14.25H5.46375C6.61969 14.25 7.58756 13.3741 7.70258 12.2239L7.875 10.5"
+                                            stroke="white" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M12 4.05159L12.6722 3.82753C13.0751 3.69323 13.516 3.73601 13.8856 3.94525C14.2551 4.1545 14.5187 4.51059 14.6108 4.92516L15.6786 9.73011C15.726 9.94379 15.75 10.162 15.75 10.3809V12C15.75 13.2426 14.7426 14.25 13.5 14.25H12.5363C11.3803 14.25 10.4124 13.3741 10.2974 12.2239L10.125 10.5"
+                                            stroke="white" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M7.875 10.5C8.54167 10 9.45833 10 10.125 10.5" stroke="white"
+                                            stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M15.75 10.5C14.0083 9.5 11.8667 9.5 10.125 10.5" stroke="white"
+                                            stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    <span class="news__item-time">
+                                        Reading time 5 min.
+                                    </span>
+                                </div>
+                                <p class="news__item-desc">"Introducing Cepheus Business Account - your all-in-one online
+                                    multi-currency solution. Say goodbye to high rates, hi …</p>
+                                <div class="news__item-bottom">
+                                    <div class="news__item-linkedin">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M0 12C0 5.38278 5.3833 0 12 0C18.6167 0 24 5.38278 24 12C24 18.6172 18.6167 24 12 24C5.3833 24 0 18.6172 0 12ZM8.34783 17.2174V9.3913H6.26087V17.2174H8.34783ZM7.30435 7.82609C6.72783 7.82609 6.26087 7.35913 6.26087 6.78261C6.26087 6.20609 6.72783 5.73913 7.30435 5.73913C7.88087 5.73913 8.34783 6.20609 8.34783 6.78261C8.34783 7.35913 7.88087 7.82609 7.30435 7.82609ZM16.1739 17.2174H18.2609V12.7826C18.2609 10.9096 16.7426 9.3913 14.8696 9.3913C13.9576 9.3913 13.1311 9.75339 12.5217 10.3388V9.3913H10.4348V17.2174H12.5217V13.3043C12.5217 12.3 13.3435 11.4783 14.3478 11.4783C15.3522 11.4783 16.1739 12.3 16.1739 13.3043V14.6087V17.2174Z"
+                                                fill="white" />
+                                        </svg>
+                                    </div>
+                                    <div class="news__item-date">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g opacity="0.5">
+                                                <path d="M5.25 5.25H12.75" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M14.25 2.367H3.75C2.92125 2.367 2.25 3.03825 2.25 3.867V14.25C2.25 15.0788 2.92125 15.75 3.75 15.75H14.25C15.0788 15.75 15.75 15.0788 15.75 14.25V3.867C15.75 3.03825 15.0788 2.367 14.25 2.367Z"
+                                                    stroke="white" stroke-width="1.15" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path d="M10.413 12.75H12.825" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M11.619 12.75V8.25L10.305 9.438" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path
+                                                    d="M5.625 9.114C5.76825 8.619 6.2055 8.25 6.74625 8.25C7.40175 8.25 7.9335 8.781 7.9335 9.43725C7.9335 10.0238 7.45725 10.5 6.87075 10.5C7.45725 10.5 7.9335 10.9763 7.9335 11.5628C7.9335 12.2183 7.4025 12.75 6.74625 12.75C6.2055 12.75 5.76825 12.381 5.625 11.886"
+                                                    stroke="white" stroke-width="1.15" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </g>
+                                        </svg>
+                                        <span>
+                                            12 May 2023
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="#!" class="news__item hidden">
+                            <div class="news__item-pic"><img src="img/start/news-6.png" alt=""></div>
+                            <div class="news__item-content">
+                                <h3 class="news__item-title">Cepheus Pay for Business</h3>
+                                <div class="news__item-top">
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M7.875 10.5C6.13333 9.5 3.99167 9.5 2.25 10.5" stroke="white"
+                                            stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M6 4.05159L5.32783 3.82753C4.92494 3.69323 4.484 3.73601 4.11444 3.94525C3.74488 4.1545 3.48133 4.51059 3.3892 4.92516L2.32144 9.73011C2.27396 9.94379 2.25 10.162 2.25 10.3809V12C2.25 13.2426 3.25736 14.25 4.5 14.25H5.46375C6.61969 14.25 7.58756 13.3741 7.70258 12.2239L7.875 10.5"
+                                            stroke="white" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path
+                                            d="M12 4.05159L12.6722 3.82753C13.0751 3.69323 13.516 3.73601 13.8856 3.94525C14.2551 4.1545 14.5187 4.51059 14.6108 4.92516L15.6786 9.73011C15.726 9.94379 15.75 10.162 15.75 10.3809V12C15.75 13.2426 14.7426 14.25 13.5 14.25H12.5363C11.3803 14.25 10.4124 13.3741 10.2974 12.2239L10.125 10.5"
+                                            stroke="white" stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M7.875 10.5C8.54167 10 9.45833 10 10.125 10.5" stroke="white"
+                                            stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                        <path d="M15.75 10.5C14.0083 9.5 11.8667 9.5 10.125 10.5" stroke="white"
+                                            stroke-width="1.15" stroke-linecap="round" stroke-linejoin="round" />
+                                    </svg>
+                                    <span class="news__item-time">
+                                        Reading time 5 min.
+                                    </span>
+                                </div>
+                                <p class="news__item-desc">"Introducing Cepheus Business Account - your all-in-one online
+                                    multi-currency solution. Say goodbye to high rates, hidd …</p>
+                                <div class="news__item-bottom">
+                                    <div class="news__item-linkedin">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                                d="M0 12C0 5.38278 5.3833 0 12 0C18.6167 0 24 5.38278 24 12C24 18.6172 18.6167 24 12 24C5.3833 24 0 18.6172 0 12ZM8.34783 17.2174V9.3913H6.26087V17.2174H8.34783ZM7.30435 7.82609C6.72783 7.82609 6.26087 7.35913 6.26087 6.78261C6.26087 6.20609 6.72783 5.73913 7.30435 5.73913C7.88087 5.73913 8.34783 6.20609 8.34783 6.78261C8.34783 7.35913 7.88087 7.82609 7.30435 7.82609ZM16.1739 17.2174H18.2609V12.7826C18.2609 10.9096 16.7426 9.3913 14.8696 9.3913C13.9576 9.3913 13.1311 9.75339 12.5217 10.3388V9.3913H10.4348V17.2174H12.5217V13.3043C12.5217 12.3 13.3435 11.4783 14.3478 11.4783C15.3522 11.4783 16.1739 12.3 16.1739 13.3043V14.6087V17.2174Z"
+                                                fill="white" />
+                                        </svg>
+                                    </div>
+                                    <div class="news__item-date">
+                                        <svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <g opacity="0.5">
+                                                <path d="M5.25 5.25H12.75" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M14.25 2.367H3.75C2.92125 2.367 2.25 3.03825 2.25 3.867V14.25C2.25 15.0788 2.92125 15.75 3.75 15.75H14.25C15.0788 15.75 15.75 15.0788 15.75 14.25V3.867C15.75 3.03825 15.0788 2.367 14.25 2.367Z"
+                                                    stroke="white" stroke-width="1.15" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                                <path d="M10.413 12.75H12.825" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M11.619 12.75V8.25L10.305 9.438" stroke="white" stroke-width="1.15"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                                <path
+                                                    d="M5.625 9.114C5.76825 8.619 6.2055 8.25 6.74625 8.25C7.40175 8.25 7.9335 8.781 7.9335 9.43725C7.9335 10.0238 7.45725 10.5 6.87075 10.5C7.45725 10.5 7.9335 10.9763 7.9335 11.5628C7.9335 12.2183 7.4025 12.75 6.74625 12.75C6.2055 12.75 5.76825 12.381 5.625 11.886"
+                                                    stroke="white" stroke-width="1.15" stroke-linecap="round"
+                                                    stroke-linejoin="round" />
+                                            </g>
+                                        </svg>
+                                        <span>
+                                            12 May 2023
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <a href="#!" class="news__button button button--red wow fadeInUp">
+                        Read More
+                    </a>
+                </div>
+            </section>
+            <section class="get-started">
+                <div class="wrapper">
+                    <div class="get-started__wrapper">
+                        <h2 class="get-started__title wow fadeInUp" data-wow-delay=".5s">
+                            Ready to get started?
+                        </h2>
+                        <a href="#signup" data-fancybox class="get-started__button button button--red wow fadeIn"
+                            data-wow-delay="1s">
+                            Create an Account
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer footer--promo">
+            <div class="wrapper">
+                <div class="footer__bottom ">
+                    <div class="footer__copyright wow fadeInLeft" data-wow-delay=".5s">
+                        © 2023 Cepheus Payment. All right reserved.
+                    </div>
+                    <ul class="footer__list">
+                        <li class="footer__list-item wow fadeInRight" data-wow-delay=".5s">
+                            <a href="#!" class="footer__list-link">
+                                Privacy Policy
+                            </a>
+                        </li>
+                        <li class="footer__list-item wow fadeInRight" data-wow-delay=".55s">
+                            <a href="#!" class="footer__list-link">
+                                Terms of Service
+                            </a>
+                        </li>
+                        <li class="footer__list-item wow fadeInRight" data-wow-delay=".6s">
+                            <a href="#!" class="footer__list-link">
+                                Cookies
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="js/libs.min.js"></script>
+    <script src="js/common.min.js"></script>
+</body>
+
+</html>
